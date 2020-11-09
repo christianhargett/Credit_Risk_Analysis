@@ -56,3 +56,9 @@ Additionally, we used two different ensemble classifiers to try and predict cred
 - Sensitivity: 87%
 
 ### Easy Ensemble AdaBoost Classifier
+
+![](https://github.com/christianhargett/Credit_Risk_Analysis/blob/main/AdaBoostClassifierResults.png)
+
+- Balanced Accuracy: 93%
+- Precision: 99%
+- Sensitivity: 94%
