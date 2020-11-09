@@ -62,3 +62,7 @@ Additionally, we used two different ensemble classifiers to try and predict cred
 - Balanced Accuracy: 93%
 - Precision: 99%
 - Sensitivity: 94%
+
+## Summary
+
+In conclusion, the majority of our machine learning models do not perform particularly well. While all of our models have a 99% Precision rating, most of our models have a low Sensitivity and a low Balanced Accuracy. The one model that sticks out from the rest is the Easy Ensemble AdaBoost Classifier. This model has a 93% Balanced Accuracy rating and a 94% Sensitivity rating. As a result, the Easy Ensemble AdaBoost Classifier is the model that I recommend LendingClub to use in their mission to accurately predict credit risk via Machine Learning
