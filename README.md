@@ -27,7 +27,7 @@ From this snippet of code we can determine the model has the below performance m
 
 We then utlized a Machine Learning algorithm using an undersampling method: Cluster Centroids
 
-### Cluster Centroids
+### Cluster Centroids Undersampling
 
 ![](https://github.com/christianhargett/Credit_Risk_Analysis/blob/main/ClusterCentroidsResults.png)
 
@@ -37,7 +37,7 @@ We then utlized a Machine Learning algorithm using an undersampling method: Clus
 
 We then used a cominbation of oversampling and undersampling using SMOTEEN
 
-## SMOTEEN
+### SMOTEEN (Oversampling/Undersampling)
 
 ![](https://github.com/christianhargett/Credit_Risk_Analysis/blob/main/SMOTEENResults.png)
 
@@ -45,4 +45,14 @@ We then used a cominbation of oversampling and undersampling using SMOTEEN
 - Precision: 99%
 - Sensitivity: 58%
 
+Additionally, we used two different ensemble classifiers to try and predict credit risk: Balanced Random Forest Classifier and Easy Ensemble AdaBoost Classifier
 
+### Balanced Random Forest
+
+![](https://github.com/christianhargett/Credit_Risk_Analysis/blob/main/RandomForestResults.png)
+
+- Balanced Accuracy: 79%
+- Precision: 99%
+- Sensitivity: 87%
+
+### Easy Ensemble AdaBoost Classifier
